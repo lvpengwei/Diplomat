@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.frameworks = "SystemConfiguration", "ImageIO", "CoreTelephony"
   s.libraries = "stdc++", "sqlite3", "z"
   s.requires_arc = true
-  s.module_map = "Sources/module.modulemap"
 
   s.subspec 'Core' do |core|
     core.source_files = "Sources/*.{h,m}"
